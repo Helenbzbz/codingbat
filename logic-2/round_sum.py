@@ -1,2 +1,5 @@
 def round_sum(a, b, c):
-  return (a+5)/10*10+(5+b)/10*10+(5+c)/10*10
+  e = round(a,-1)
+  f = round(b,-1)
+  g = round(c,-1)
+  return int(e+f+g)
